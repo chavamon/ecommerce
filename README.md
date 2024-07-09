@@ -70,7 +70,10 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 
 
+### Build Docker Image
 
+docker buildx build -f Dockerfile -t ecommerce-image:latest .
 
+### Run Docker Container in host_port:container_port
 
-npm install react-router-dom
+docker run -d -p 3000:3000 --name my-ecommerce-container ecommerce:latest
