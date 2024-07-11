@@ -14,8 +14,6 @@ function App() {
       <div className="App">
         <Menu />
         <Routes>
-          {/* <Route path="/" exact component={Home} /> */}
-          
           <Route path="/" element={<Home />} />
           <Route path="/shop" element={<Shop />} />
           <Route path="/cart" element={<Cart />} />

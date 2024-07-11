@@ -1,0 +1,1 @@
+export const API_URL = 'http://localhost:53877/product/v1/get/all';
