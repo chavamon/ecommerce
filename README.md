@@ -1,3 +1,15 @@
+This is a pipeline created to deploy the e-commerce application.
+
+The e-commerce application includes:
+- One backend with:
+    - This Jenkins instance.
+    - Three instances of EC2.
+    - One instance of MSK - Apache Kafka -  with three brokers.
+    - One Application Load Balancer.
+- One Frontend
+    -  One ReactJS project.
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
